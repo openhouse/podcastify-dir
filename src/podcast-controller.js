@@ -77,7 +77,7 @@ function getPodcastMiddleware({
               title = metadata.common.title,
               summary: description = getNativeValue('TXXX:comment') ||
                 getNativeValue('COMM:comment'),
-              asin: id = metadata.common.asin,
+              asin: id = metadata.common.title,
               author = metadata.common.artist,
               copyright = metadata.common.copyright,
               duration = metadata.format.duration,
